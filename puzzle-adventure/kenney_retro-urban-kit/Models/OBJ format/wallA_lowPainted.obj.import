@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://chfrag1x05tpa"
+path="res://.godot/imported/wallA_lowPainted.obj-2623b7806d95bea4a13a281c829bd345.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallA_lowPainted.obj-2623b7806d95bea4a13a281c829bd345.mesh"]
+
+source_file="res://kenney_retro-urban-kit/Models/OBJ format/wallA_lowPainted.obj"
+dest_files=["res://.godot/imported/wallA_lowPainted.obj-2623b7806d95bea4a13a281c829bd345.mesh", "res://.godot/imported/wallA_lowPainted.obj-2623b7806d95bea4a13a281c829bd345.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

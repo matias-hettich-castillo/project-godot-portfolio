@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c00qtehcxr0oj"
+path="res://.godot/imported/detailCables_typeB.obj-efd8238ff9e787ae192c949cd3c85f7c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/detailCables_typeB.obj-efd8238ff9e787ae192c949cd3c85f7c.mesh"]
+
+source_file="res://kenney_retro-urban-kit/Models/OBJ format/detailCables_typeB.obj"
+dest_files=["res://.godot/imported/detailCables_typeB.obj-efd8238ff9e787ae192c949cd3c85f7c.mesh", "res://.godot/imported/detailCables_typeB.obj-efd8238ff9e787ae192c949cd3c85f7c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

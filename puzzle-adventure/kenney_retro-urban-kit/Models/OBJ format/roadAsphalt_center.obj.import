@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dwu75kj5ow6qm"
+path="res://.godot/imported/roadAsphalt_center.obj-dec1f0ea90e93c9af585e3046253e09a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/roadAsphalt_center.obj-dec1f0ea90e93c9af585e3046253e09a.mesh"]
+
+source_file="res://kenney_retro-urban-kit/Models/OBJ format/roadAsphalt_center.obj"
+dest_files=["res://.godot/imported/roadAsphalt_center.obj-dec1f0ea90e93c9af585e3046253e09a.mesh", "res://.godot/imported/roadAsphalt_center.obj-dec1f0ea90e93c9af585e3046253e09a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

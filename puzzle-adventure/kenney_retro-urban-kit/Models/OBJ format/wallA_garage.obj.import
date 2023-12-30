@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cd4l86nm71woc"
+path="res://.godot/imported/wallA_garage.obj-9bd74f8c4eecf659be4cfbe4f98d8765.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallA_garage.obj-9bd74f8c4eecf659be4cfbe4f98d8765.mesh"]
+
+source_file="res://kenney_retro-urban-kit/Models/OBJ format/wallA_garage.obj"
+dest_files=["res://.godot/imported/wallA_garage.obj-9bd74f8c4eecf659be4cfbe4f98d8765.mesh", "res://.godot/imported/wallA_garage.obj-9bd74f8c4eecf659be4cfbe4f98d8765.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

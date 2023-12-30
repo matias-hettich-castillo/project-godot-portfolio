@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://biyjddlsy2e27"
+path="res://.godot/imported/detailDumpster_open.obj-c7eb0bc3f87c63805b04d7d83223912b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/detailDumpster_open.obj-c7eb0bc3f87c63805b04d7d83223912b.mesh"]
+
+source_file="res://kenney_retro-urban-kit/Models/OBJ format/detailDumpster_open.obj"
+dest_files=["res://.godot/imported/detailDumpster_open.obj-c7eb0bc3f87c63805b04d7d83223912b.mesh", "res://.godot/imported/detailDumpster_open.obj-c7eb0bc3f87c63805b04d7d83223912b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

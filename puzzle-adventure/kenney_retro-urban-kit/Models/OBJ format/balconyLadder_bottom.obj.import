@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://6rvf6p8aj13v"
+path="res://.godot/imported/balconyLadder_bottom.obj-4760c8f05c1f5cea427c843287e00cfe.mesh"
+
+[deps]
+
+files=["res://.godot/imported/balconyLadder_bottom.obj-4760c8f05c1f5cea427c843287e00cfe.mesh"]
+
+source_file="res://kenney_retro-urban-kit/Models/OBJ format/balconyLadder_bottom.obj"
+dest_files=["res://.godot/imported/balconyLadder_bottom.obj-4760c8f05c1f5cea427c843287e00cfe.mesh", "res://.godot/imported/balconyLadder_bottom.obj-4760c8f05c1f5cea427c843287e00cfe.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

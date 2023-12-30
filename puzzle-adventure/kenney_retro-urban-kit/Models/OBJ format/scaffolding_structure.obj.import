@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bslnjnfrjk78a"
+path="res://.godot/imported/scaffolding_structure.obj-3a26cd278b7d378b02b6a50e9aa0512d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/scaffolding_structure.obj-3a26cd278b7d378b02b6a50e9aa0512d.mesh"]
+
+source_file="res://kenney_retro-urban-kit/Models/OBJ format/scaffolding_structure.obj"
+dest_files=["res://.godot/imported/scaffolding_structure.obj-3a26cd278b7d378b02b6a50e9aa0512d.mesh", "res://.godot/imported/scaffolding_structure.obj-3a26cd278b7d378b02b6a50e9aa0512d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://vnlkmlc12g7c"
+path="res://.godot/imported/wallB_garage.obj-72eca35e91c65b4136e8b601a23a67be.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallB_garage.obj-72eca35e91c65b4136e8b601a23a67be.mesh"]
+
+source_file="res://kenney_retro-urban-kit/Models/OBJ format/wallB_garage.obj"
+dest_files=["res://.godot/imported/wallB_garage.obj-72eca35e91c65b4136e8b601a23a67be.mesh", "res://.godot/imported/wallB_garage.obj-72eca35e91c65b4136e8b601a23a67be.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

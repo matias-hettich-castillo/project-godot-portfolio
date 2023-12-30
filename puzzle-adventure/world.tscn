@@ -1,3 +1,20 @@
-[gd_scene format=3 uid="uid://cwc2m5w24sknb"]
+[gd_scene load_steps=2 format=3 uid="uid://cwc2m5w24sknb"]
 
-[node name="World" type="Node3D"]
+[ext_resource type="MeshLibrary" uid="uid://mx4vhjreiycf" path="res://mesh_library.tres" id="1_b4pus"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="ground" type="GridMap" parent="."]
+mesh_library = ExtResource("1_b4pus")
+cell_size = Vector3(1, 1, 1)
+data = {
+"cells": PackedInt32Array(1, 1, 1048576, 2, 1, 1048576, 3, 1, 1048576, 3, 0, 1048576, 2, 0, 1048576, 1, 0, 1048576, 3, 65535, 1048576, 2, 65535, 1048576, 1, 65535, 1048576, 1, 65533, 1048576, 1, 65534, 1048576, 2, 65534, 1048576, 2, 65533, 1048576, 3, 65534, 1048576, 3, 65533, 1048576, 4, 1, 1048576, 4, 0, 1048576, 4, 65535, 1048576, 4, 65534, 1048576, 4, 65533, 1048576, 5, 65533, 1048576, 5, 65534, 1048576, 5, 65535, 1048576, 5, 0, 1048576, 5, 1, 1048576)
+}
+metadata/_editor_floor_ = Vector3(0, 0, 0)
+
+[node name="trees" type="GridMap" parent="."]
+mesh_library = ExtResource("1_b4pus")
+cell_size = Vector3(1, 1, 1)
+data = {
+"cells": PackedInt32Array(1, 1, 1048577, 2, 1, 1048577, 1, 0, 1048577, 2, 0, 1048577, 1, 65535, 1048577, 2, 65535, 1048577, 3, 1, 1048577, 5, 65535, 1048577, 5, 65534, 1048577)
+}

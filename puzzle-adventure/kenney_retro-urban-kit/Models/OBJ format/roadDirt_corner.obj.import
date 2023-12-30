@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cf2kvljvn6qm8"
+path="res://.godot/imported/roadDirt_corner.obj-bb0f7d7b40604d7756cd755133d018dc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/roadDirt_corner.obj-bb0f7d7b40604d7756cd755133d018dc.mesh"]
+
+source_file="res://kenney_retro-urban-kit/Models/OBJ format/roadDirt_corner.obj"
+dest_files=["res://.godot/imported/roadDirt_corner.obj-bb0f7d7b40604d7756cd755133d018dc.mesh", "res://.godot/imported/roadDirt_corner.obj-bb0f7d7b40604d7756cd755133d018dc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

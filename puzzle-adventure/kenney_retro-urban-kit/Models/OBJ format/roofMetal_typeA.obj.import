@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bax82uhg2y7gq"
+path="res://.godot/imported/roofMetal_typeA.obj-f0c8a9bec65d318382aff8defa0be4dc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/roofMetal_typeA.obj-f0c8a9bec65d318382aff8defa0be4dc.mesh"]
+
+source_file="res://kenney_retro-urban-kit/Models/OBJ format/roofMetal_typeA.obj"
+dest_files=["res://.godot/imported/roofMetal_typeA.obj-f0c8a9bec65d318382aff8defa0be4dc.mesh", "res://.godot/imported/roofMetal_typeA.obj-f0c8a9bec65d318382aff8defa0be4dc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

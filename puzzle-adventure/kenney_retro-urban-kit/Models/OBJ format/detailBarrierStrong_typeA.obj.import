@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dtxxxu48e18sm"
+path="res://.godot/imported/detailBarrierStrong_typeA.obj-260f7bd236195d62056fbbf9f8db1ef8.mesh"
+
+[deps]
+
+files=["res://.godot/imported/detailBarrierStrong_typeA.obj-260f7bd236195d62056fbbf9f8db1ef8.mesh"]
+
+source_file="res://kenney_retro-urban-kit/Models/OBJ format/detailBarrierStrong_typeA.obj"
+dest_files=["res://.godot/imported/detailBarrierStrong_typeA.obj-260f7bd236195d62056fbbf9f8db1ef8.mesh", "res://.godot/imported/detailBarrierStrong_typeA.obj-260f7bd236195d62056fbbf9f8db1ef8.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dp6n3i4gr3ifg"
+path="res://.godot/imported/windowWide_typeD.obj-2f3a6f75f3ca5a289166a872ad671807.mesh"
+
+[deps]
+
+files=["res://.godot/imported/windowWide_typeD.obj-2f3a6f75f3ca5a289166a872ad671807.mesh"]
+
+source_file="res://kenney_retro-urban-kit/Models/OBJ format/windowWide_typeD.obj"
+dest_files=["res://.godot/imported/windowWide_typeD.obj-2f3a6f75f3ca5a289166a872ad671807.mesh", "res://.godot/imported/windowWide_typeD.obj-2f3a6f75f3ca5a289166a872ad671807.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ckli40ln7bwcy"
+path="res://.godot/imported/balcony_typeA.obj-d63c43aa4bec6162790b7d573fb4d1ad.mesh"
+
+[deps]
+
+files=["res://.godot/imported/balcony_typeA.obj-d63c43aa4bec6162790b7d573fb4d1ad.mesh"]
+
+source_file="res://kenney_retro-urban-kit/Models/OBJ format/balcony_typeA.obj"
+dest_files=["res://.godot/imported/balcony_typeA.obj-d63c43aa4bec6162790b7d573fb4d1ad.mesh", "res://.godot/imported/balcony_typeA.obj-d63c43aa4bec6162790b7d573fb4d1ad.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
