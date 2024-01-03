@@ -1,0 +1,2419 @@
+[gd_scene load_steps=80 format=3 uid="uid://fjsj3i752d5r"]
+
+[ext_resource type="ArrayMesh" uid="uid://ciiv8hmt6rw2q" path="res://kenney_retro-urban-kit/Models/OBJ format/grass.obj" id="1_53gdt"]
+[ext_resource type="ArrayMesh" uid="uid://dnh7b1hpsljl7" path="res://kenney_retro-urban-kit/Models/OBJ format/roadAsphalt_side.obj" id="2_0kh86"]
+[ext_resource type="ArrayMesh" uid="uid://cdy6kx3craykw" path="res://kenney_retro-urban-kit/Models/OBJ format/roadAsphalt_cornerOuter.obj" id="3_6syq8"]
+[ext_resource type="ArrayMesh" uid="uid://dwu75kj5ow6qm" path="res://kenney_retro-urban-kit/Models/OBJ format/roadAsphalt_center.obj" id="4_4uyom"]
+[ext_resource type="ArrayMesh" uid="uid://c7mbd2hho7p11" path="res://kenney_retro-urban-kit/Models/OBJ format/roadAsphalt_cornerInner.obj" id="5_3s4uu"]
+[ext_resource type="ArrayMesh" uid="uid://cnvigdj8s3llx" path="res://kenney_retro-urban-kit/Models/OBJ format/wallA_door.obj" id="6_xdib1"]
+[ext_resource type="ArrayMesh" uid="uid://ehtdxbncewrg" path="res://kenney_retro-urban-kit/Models/OBJ format/wallFence.obj" id="7_1igck"]
+[ext_resource type="ArrayMesh" uid="uid://bcv1l6fiiqggb" path="res://kenney_retro-urban-kit/Models/OBJ format/wallA_window.obj" id="7_cgpn8"]
+[ext_resource type="ArrayMesh" uid="uid://fv0ksrywpsvi" path="res://kenney_retro-urban-kit/Models/OBJ format/wallA.obj" id="8_1jep0"]
+[ext_resource type="ArrayMesh" uid="uid://fwpv4srajtcq" path="res://kenney_retro-urban-kit/Models/OBJ format/wallA_roof.obj" id="9_q61go"]
+[ext_resource type="ArrayMesh" uid="uid://btx7j4obpgfcm" path="res://kenney_retro-urban-kit/Models/OBJ format/tree_large.obj" id="9_ugpae"]
+[ext_resource type="Texture2D" uid="uid://cpbq4lxthnybo" path="res://kenney_retro-urban-kit/Models/OBJ format/Textures/treeA.png" id="10_0exe3"]
+[ext_resource type="ArrayMesh" uid="uid://d3y1hw03x1owg" path="res://kenney_retro-urban-kit/Models/OBJ format/wallC_flatLow.obj" id="10_e2lw8"]
+[ext_resource type="ArrayMesh" uid="uid://d3gx5fha1i3ts" path="res://kenney_retro-urban-kit/Models/OBJ format/tree_shrub.obj" id="11_jk5gb"]
+[ext_resource type="Texture2D" uid="uid://c5l4e0a4ddqr1" path="res://kenney_retro-urban-kit/Models/OBJ format/Textures/bars.png" id="11_tty00"]
+[ext_resource type="ArrayMesh" uid="uid://be7c7imqskaav" path="res://kenney_retro-urban-kit/Models/OBJ format/treePine_large.obj" id="12_4n854"]
+[ext_resource type="ArrayMesh" uid="uid://b646yafhtf683" path="res://kenney_retro-urban-kit/Models/OBJ format/wallB.obj" id="12_iylke"]
+[ext_resource type="Texture2D" uid="uid://ddjsqxhd21wc8" path="res://kenney_retro-urban-kit/Models/OBJ format/Textures/treeB.png" id="13_834f7"]
+[ext_resource type="ArrayMesh" uid="uid://bjj57vc2tc3wb" path="res://kenney_retro-urban-kit/Models/OBJ format/roadDirt_center.obj" id="13_qmevm"]
+[ext_resource type="ArrayMesh" uid="uid://c58rk63jpxjwj" path="res://kenney_retro-urban-kit/Models/OBJ format/wallC_flat.obj" id="14_eqqas"]
+[ext_resource type="ArrayMesh" uid="uid://dkcgbevqcfg8q" path="res://kenney_retro-urban-kit/Models/OBJ format/roadAsphalt_pavement.obj" id="15_dgj7h"]
+[ext_resource type="ArrayMesh" uid="uid://dx8jkpailbocw" path="res://kenney_retro-urban-kit/Models/OBJ format/wallA_painted.obj" id="16_k3tg4"]
+[ext_resource type="ArrayMesh" uid="uid://vnlkmlc12g7c" path="res://kenney_retro-urban-kit/Models/OBJ format/wallB_garage.obj" id="17_68jkp"]
+[ext_resource type="ArrayMesh" uid="uid://bs6ods150xs80" path="res://kenney_retro-urban-kit/Models/OBJ format/wallB_roof.obj" id="18_3pbq6"]
+[ext_resource type="ArrayMesh" uid="uid://p8081ldj0jbu" path="res://kenney_retro-urban-kit/Models/OBJ format/wallA_roofSlant.obj" id="18_fkldh"]
+[ext_resource type="ArrayMesh" uid="uid://bjl7ktv0r1fd2" path="res://kenney_retro-urban-kit/Models/OBJ format/wallB_window.obj" id="19_bofk7"]
+[ext_resource type="ArrayMesh" uid="uid://cd4l86nm71woc" path="res://kenney_retro-urban-kit/Models/OBJ format/wallA_garage.obj" id="19_dg07v"]
+[ext_resource type="ArrayMesh" uid="uid://gmevlvmoeb72" path="res://kenney_retro-urban-kit/Models/OBJ format/wallB_door.obj" id="20_meldu"]
+[ext_resource type="Texture2D" uid="uid://cvn18lih0iwr0" path="res://kenney_retro-urban-kit/Models/OBJ format/Textures/roof_plates.png" id="21_fyi0p"]
+[ext_resource type="ArrayMesh" uid="uid://d02ktfbf8ydmo" path="res://kenney_retro-urban-kit/Models/OBJ format/wallB_roofSlant.obj" id="22_vd83l"]
+[ext_resource type="ArrayMesh" uid="uid://53i0ysc5sxqm" path="res://kenney_retro-urban-kit/Models/OBJ format/wallA_low.obj" id="23_0pnwc"]
+[ext_resource type="ArrayMesh" uid="uid://bslnjnfrjk78a" path="res://kenney_retro-urban-kit/Models/OBJ format/scaffolding_structure.obj" id="26_2b47f"]
+[ext_resource type="ArrayMesh" uid="uid://t0tc2bcojeai" path="res://kenney_retro-urban-kit/Models/OBJ format/scaffolding_poles.obj" id="27_plpc7"]
+[ext_resource type="ArrayMesh" uid="uid://dsvpm7g220ft3" path="res://kenney_retro-urban-kit/Models/OBJ format/detailBarrierStrong_typeB.obj" id="28_483sh"]
+[ext_resource type="ArrayMesh" uid="uid://b08vnobrddnrd" path="res://kenney_retro-urban-kit/Models/OBJ format/detailBarrier_typeA.obj" id="29_ioe3k"]
+[ext_resource type="ArrayMesh" uid="uid://boy6xg5f8cr18" path="res://kenney_retro-urban-kit/Models/OBJ format/detailBeam.obj" id="30_yorbb"]
+[ext_resource type="ArrayMesh" uid="uid://0ag0tq6vsnil" path="res://kenney_retro-urban-kit/Models/OBJ format/detailBricks_typeA.obj" id="31_c6j2g"]
+[ext_resource type="ArrayMesh" uid="uid://cxome3ddtd4dv" path="res://kenney_retro-urban-kit/Models/OBJ format/detailBricks_typeB.obj" id="32_k8w1w"]
+[ext_resource type="ArrayMesh" uid="uid://bbxk36lwrprmg" path="res://kenney_retro-urban-kit/Models/OBJ format/truck_flat.obj" id="39_6uyqy"]
+[ext_resource type="ArrayMesh" uid="uid://75hvxv7hhhyi" path="res://kenney_retro-urban-kit/Models/OBJ format/truck_green.obj" id="40_42ivx"]
+[ext_resource type="ArrayMesh" uid="uid://ckli40ln7bwcy" path="res://kenney_retro-urban-kit/Models/OBJ format/balcony_typeA.obj" id="41_6c85f"]
+[ext_resource type="ArrayMesh" uid="uid://6rvf6p8aj13v" path="res://kenney_retro-urban-kit/Models/OBJ format/balconyLadder_bottom.obj" id="42_4585p"]
+[ext_resource type="ArrayMesh" uid="uid://cm5jgc3k4p1xh" path="res://kenney_retro-urban-kit/Models/OBJ format/balconyLadder_top.obj" id="43_1okv2"]
+[ext_resource type="Texture2D" uid="uid://w7pgqm8nl20b" path="res://kenney_retro-urban-kit/Models/OBJ format/Textures/roof.png" id="43_u1dsk"]
+[ext_resource type="ArrayMesh" uid="uid://7horurmn6reo" path="res://kenney_retro-urban-kit/Models/OBJ format/windowWide_typeA.obj" id="44_akru5"]
+[ext_resource type="ArrayMesh" uid="uid://budvxd7qxj5mv" path="res://kenney_retro-urban-kit/Models/OBJ format/truck_grey.obj" id="45_twaog"]
+[ext_resource type="ArrayMesh" uid="uid://biyjddlsy2e27" path="res://kenney_retro-urban-kit/Models/OBJ format/detailDumpster_open.obj" id="46_22nqg"]
+[ext_resource type="ArrayMesh" uid="uid://d2ad1e52mdf5w" path="res://kenney_retro-urban-kit/Models/OBJ format/detailDumpster_closed.obj" id="47_bdr6x"]
+[ext_resource type="ArrayMesh" uid="uid://brgj0b3nfjgu6" path="res://kenney_retro-urban-kit/Models/OBJ format/detailLight_single.obj" id="48_n73c1"]
+[ext_resource type="ArrayMesh" uid="uid://y62iubj20hj1" path="res://kenney_retro-urban-kit/Models/OBJ format/detailBarrierStrong_damaged.obj" id="49_gvmur"]
+[ext_resource type="ArrayMesh" uid="uid://dtxxxu48e18sm" path="res://kenney_retro-urban-kit/Models/OBJ format/detailBarrierStrong_typeA.obj" id="50_662t3"]
+[ext_resource type="ArrayMesh" uid="uid://2q3lilh8eb0w" path="res://kenney_retro-urban-kit/Models/OBJ format/detailLight_double.obj" id="50_lkwf1"]
+[ext_resource type="ArrayMesh" uid="uid://nrayp34hptqh" path="res://kenney_retro-urban-kit/Models/OBJ format/detailAwning_wide.obj" id="52_dmxe8"]
+[ext_resource type="ArrayMesh" uid="uid://dhh5524pokrg1" path="res://kenney_retro-urban-kit/Models/OBJ format/wallA_flat.obj" id="54_bh8tt"]
+[ext_resource type="ArrayMesh" uid="uid://bcn6hm45ubfd7" path="res://kenney_retro-urban-kit/Models/OBJ format/door_typeA.obj" id="55_5teso"]
+[ext_resource type="ArrayMesh" uid="uid://ddfg5wkcmse4c" path="res://kenney_retro-urban-kit/Models/OBJ format/windowSmall_typeA.obj" id="56_xfutl"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4aoxp"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+albedo_texture = ExtResource("11_tty00")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lem45"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+albedo_texture = ExtResource("10_0exe3")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0v6bv"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+albedo_texture = ExtResource("10_0exe3")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_m61af"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+albedo_texture = ExtResource("13_834f7")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r0f0f"]
+albedo_texture = ExtResource("21_fyi0p")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_plfq1"]
+albedo_texture = ExtResource("21_fyi0p")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tvs5w"]
+albedo_texture = ExtResource("21_fyi0p")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_67kvi"]
+albedo_texture = ExtResource("21_fyi0p")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q3jaj"]
+albedo_texture = ExtResource("21_fyi0p")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ht2cs"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+albedo_texture = ExtResource("11_tty00")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qykda"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+albedo_texture = ExtResource("11_tty00")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_atcg4"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+albedo_texture = ExtResource("11_tty00")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8c6u2"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+albedo_texture = ExtResource("11_tty00")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_s4cds"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+albedo_texture = ExtResource("11_tty00")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7gre1"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+albedo_texture = ExtResource("11_tty00")
+uv1_scale = Vector3(0.52, 0.665, 1)
+uv1_offset = Vector3(0.455, 0.165, 0)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_45w8a"]
+albedo_texture = ExtResource("43_u1dsk")
+uv1_triplanar_sharpness = 0.125
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_scl8g"]
+albedo_texture = ExtResource("43_u1dsk")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kr0ck"]
+albedo_texture = ExtResource("43_u1dsk")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1e45c"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+albedo_texture = ExtResource("11_tty00")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wnn3a"]
+albedo_texture = ExtResource("21_fyi0p")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yboc0"]
+albedo_texture = ExtResource("21_fyi0p")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3omrn"]
+albedo_texture = ExtResource("21_fyi0p")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fe6a7"]
+albedo_texture = ExtResource("21_fyi0p")
+
+[node name="level_1" type="Node3D"]
+
+[node name="environment" type="Node3D" parent="."]
+
+[node name="building_1" type="Node3D" parent="environment"]
+
+[node name="WallBGarage" type="MeshInstance3D" parent="environment/building_1"]
+transform = Transform3D(1.31134e-07, 0, 1, 0, 1, 0, -1, 0, 1.31134e-07, 2, 0, -2)
+mesh = ExtResource("17_68jkp")
+skeleton = NodePath("../../..")
+
+[node name="WallBRoof" type="MeshInstance3D" parent="environment/building_1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 1, -2)
+mesh = ExtResource("18_3pbq6")
+skeleton = NodePath("../../..")
+
+[node name="WallBRoof2" type="MeshInstance3D" parent="environment/building_1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, -2)
+mesh = ExtResource("18_3pbq6")
+skeleton = NodePath("../../..")
+
+[node name="WallBRoof3" type="MeshInstance3D" parent="environment/building_1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, -2)
+mesh = ExtResource("18_3pbq6")
+skeleton = NodePath("../../..")
+
+[node name="WallBWindow" type="MeshInstance3D" parent="environment/building_1"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 1, 0, -2)
+mesh = ExtResource("19_bofk7")
+skeleton = NodePath("../../..")
+
+[node name="WallBDoor" type="MeshInstance3D" parent="environment/building_1"]
+transform = Transform3D(-1, 0, 8.9407e-08, 0, 1, 0, -8.9407e-08, 0, -1, 0, 0, -2)
+mesh = ExtResource("20_meldu")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement40" type="MeshInstance3D" parent="environment/building_1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0.05, -1)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement42" type="MeshInstance3D" parent="environment/building_1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0.05, -1)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement44" type="MeshInstance3D" parent="environment/building_1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05, -1)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCenter14" type="MeshInstance3D" parent="environment/building_1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -2)
+mesh = ExtResource("4_4uyom")
+skeleton = NodePath("../../..")
+
+[node name="park" type="Node3D" parent="environment"]
+
+[node name="Grass" type="MeshInstance3D" parent="environment/park"]
+mesh = ExtResource("1_53gdt")
+skeleton = NodePath("../../..")
+
+[node name="Grass2" type="MeshInstance3D" parent="environment/park"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
+mesh = ExtResource("1_53gdt")
+skeleton = NodePath("../../..")
+
+[node name="Grass3" type="MeshInstance3D" parent="environment/park"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
+mesh = ExtResource("1_53gdt")
+skeleton = NodePath("../../..")
+
+[node name="Grass4" type="MeshInstance3D" parent="environment/park"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1)
+mesh = ExtResource("1_53gdt")
+skeleton = NodePath("../../..")
+
+[node name="Grass5" type="MeshInstance3D" parent="environment/park"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1)
+mesh = ExtResource("1_53gdt")
+skeleton = NodePath("../../..")
+
+[node name="Grass6" type="MeshInstance3D" parent="environment/park"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 1)
+mesh = ExtResource("1_53gdt")
+skeleton = NodePath("../../..")
+
+[node name="Grass7" type="MeshInstance3D" parent="environment/park"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2)
+mesh = ExtResource("1_53gdt")
+skeleton = NodePath("../../..")
+
+[node name="Grass8" type="MeshInstance3D" parent="environment/park"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 2)
+mesh = ExtResource("1_53gdt")
+skeleton = NodePath("../../..")
+
+[node name="Grass9" type="MeshInstance3D" parent="environment/park"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 2)
+mesh = ExtResource("1_53gdt")
+skeleton = NodePath("../../..")
+
+[node name="WallFence" type="MeshInstance3D" parent="environment/park"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 2.5)
+mesh = ExtResource("7_1igck")
+skeleton = NodePath("../../..")
+surface_material_override/2 = SubResource("StandardMaterial3D_4aoxp")
+
+[node name="WallFence4" type="MeshInstance3D" parent="environment/park"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -0.5)
+mesh = ExtResource("7_1igck")
+skeleton = NodePath("../../..")
+surface_material_override/2 = SubResource("StandardMaterial3D_4aoxp")
+
+[node name="WallFence2" type="MeshInstance3D" parent="environment/park"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.5)
+mesh = ExtResource("7_1igck")
+skeleton = NodePath("../../..")
+surface_material_override/2 = SubResource("StandardMaterial3D_4aoxp")
+
+[node name="WallFence3" type="MeshInstance3D" parent="environment/park"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.5)
+mesh = ExtResource("7_1igck")
+skeleton = NodePath("../../..")
+surface_material_override/2 = SubResource("StandardMaterial3D_4aoxp")
+
+[node name="WallFence5" type="MeshInstance3D" parent="environment/park"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -0.5, 0, 0)
+mesh = ExtResource("7_1igck")
+skeleton = NodePath("../../..")
+surface_material_override/2 = SubResource("StandardMaterial3D_4aoxp")
+
+[node name="WallFence6" type="MeshInstance3D" parent="environment/park"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -0.5, 0, 2)
+mesh = ExtResource("7_1igck")
+skeleton = NodePath("../../..")
+surface_material_override/2 = SubResource("StandardMaterial3D_4aoxp")
+
+[node name="WallFence7" type="MeshInstance3D" parent="environment/park"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 2.5, 0, 2)
+mesh = ExtResource("7_1igck")
+skeleton = NodePath("../../..")
+surface_material_override/2 = SubResource("StandardMaterial3D_4aoxp")
+
+[node name="WallFence8" type="MeshInstance3D" parent="environment/park"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 2.5, 0, 0)
+mesh = ExtResource("7_1igck")
+skeleton = NodePath("../../..")
+surface_material_override/2 = SubResource("StandardMaterial3D_4aoxp")
+
+[node name="TreeLarge" type="MeshInstance3D" parent="environment/park"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
+mesh = ExtResource("9_ugpae")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_lem45")
+
+[node name="TreeShrub" type="MeshInstance3D" parent="environment/park"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 2)
+mesh = ExtResource("11_jk5gb")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_0v6bv")
+
+[node name="TreePineLarge" type="MeshInstance3D" parent="environment/park"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2)
+mesh = ExtResource("12_4n854")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_m61af")
+
+[node name="main_road" type="Node3D" parent="environment"]
+
+[node name="RoadAsphaltSide" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 3, 0, 0)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide14" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 3, 0, -1)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide15" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 3, 0, -2)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide2" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 3, 0, 1)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide3" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 3, 0, 2)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCornerOuter" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 3, 0, 3)
+mesh = ExtResource("3_6syq8")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide4" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 2, 0, 3)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide5" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 1, 0, 3)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide6" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 3)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCenter" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
+mesh = ExtResource("4_4uyom")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCenter10" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -1)
+mesh = ExtResource("4_4uyom")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCenter12" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -1)
+mesh = ExtResource("4_4uyom")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCenter11" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -2)
+mesh = ExtResource("4_4uyom")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCenter2" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 1)
+mesh = ExtResource("4_4uyom")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCenter3" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 2)
+mesh = ExtResource("4_4uyom")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCenter4" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 3)
+mesh = ExtResource("4_4uyom")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCenter5" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 4)
+mesh = ExtResource("4_4uyom")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCenter6" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 4)
+mesh = ExtResource("4_4uyom")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCenter7" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 4)
+mesh = ExtResource("4_4uyom")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCenter8" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 4)
+mesh = ExtResource("4_4uyom")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCenter9" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4)
+mesh = ExtResource("4_4uyom")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide7" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide8" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 5)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide9" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 5)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide10" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 5)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide11" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 5)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide12" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 0, 4)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide13" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 0, 3)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCornerInner" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 5, 0, 5)
+mesh = ExtResource("5_3s4uu")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCornerOuter2" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 2)
+mesh = ExtResource("3_6syq8")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCornerOuter3" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 0, 1)
+mesh = ExtResource("3_6syq8")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCornerOuter5" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 0, -2)
+mesh = ExtResource("3_6syq8")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCornerOuter6" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 0, -2)
+mesh = ExtResource("3_6syq8")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCornerOuter4" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 0)
+mesh = ExtResource("3_6syq8")
+skeleton = NodePath("../../..")
+
+[node name="DetailLightDouble" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 3, 0, 0)
+mesh = ExtResource("50_lkwf1")
+skeleton = NodePath("../../..")
+
+[node name="DetailLightDouble2" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 3, 0, 2)
+mesh = ExtResource("50_lkwf1")
+skeleton = NodePath("../../..")
+
+[node name="DetailLightDouble3" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 3, 0, -2)
+mesh = ExtResource("50_lkwf1")
+skeleton = NodePath("../../..")
+
+[node name="DetailLightDouble4" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 2, 0, 3)
+mesh = ExtResource("50_lkwf1")
+skeleton = NodePath("../../..")
+
+[node name="DetailLightDouble5" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 0, 0, 3)
+mesh = ExtResource("50_lkwf1")
+skeleton = NodePath("../../..")
+
+[node name="DetailLightSingle3" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 5)
+mesh = ExtResource("48_n73c1")
+skeleton = NodePath("../../..")
+
+[node name="DetailLightSingle4" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 5)
+mesh = ExtResource("48_n73c1")
+skeleton = NodePath("../../..")
+
+[node name="DetailLightSingle5" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 5, 0, 5)
+mesh = ExtResource("48_n73c1")
+skeleton = NodePath("../../..")
+
+[node name="DetailLightSingle6" type="MeshInstance3D" parent="environment/main_road"]
+transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 5, 0, 3)
+mesh = ExtResource("48_n73c1")
+skeleton = NodePath("../../..")
+
+[node name="building_2" type="Node3D" parent="environment"]
+
+[node name="WallB" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB5" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 6)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB6" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 7)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB10" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 7)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB11" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB15" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 8)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB21" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 9)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB22" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 9)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB23" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 9)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB26" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 6)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB28" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 1, 6)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB30" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 1, 6)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB31" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 7)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB35" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 1, 7)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB36" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 8)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB40" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 1, 8)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB41" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 1, 9)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB42" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 1, 9)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB43" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 9)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB44" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 9)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB45" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 1, 9)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB46" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 6)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB48" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 2, 6)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB50" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 2, 6)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB51" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 7)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB55" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 2, 7)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB56" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 8)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB60" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 2, 8)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB61" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 2, 9)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB62" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 2, 9)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB63" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 9)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB64" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 2, 9)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB65" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 2, 9)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB24" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 9)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB25" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 9)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallBDoor2" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 6)
+mesh = ExtResource("20_meldu")
+skeleton = NodePath("../../..")
+
+[node name="WallBWindow2" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 6)
+mesh = ExtResource("19_bofk7")
+skeleton = NodePath("../../..")
+
+[node name="WallBWindow3" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 1, 6)
+mesh = ExtResource("19_bofk7")
+skeleton = NodePath("../../..")
+
+[node name="WallBWindow5" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 6)
+mesh = ExtResource("19_bofk7")
+skeleton = NodePath("../../..")
+
+[node name="WallBWindow7" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 6)
+mesh = ExtResource("19_bofk7")
+skeleton = NodePath("../../..")
+
+[node name="WallBWindow6" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 2, 6)
+mesh = ExtResource("19_bofk7")
+skeleton = NodePath("../../..")
+
+[node name="WallBWindow4" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 2, 6)
+mesh = ExtResource("19_bofk7")
+skeleton = NodePath("../../..")
+
+[node name="WallBRoofSlant" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 6)
+material_override = SubResource("StandardMaterial3D_r0f0f")
+mesh = ExtResource("22_vd83l")
+skeleton = NodePath("../../..")
+
+[node name="WallBRoofSlant2" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 7)
+mesh = ExtResource("22_vd83l")
+skeleton = NodePath("../../..")
+
+[node name="WallBRoofSlant3" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 8)
+mesh = ExtResource("22_vd83l")
+skeleton = NodePath("../../..")
+
+[node name="WallBRoofSlant4" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 9)
+material_override = SubResource("StandardMaterial3D_plfq1")
+mesh = ExtResource("22_vd83l")
+skeleton = NodePath("../../..")
+
+[node name="WallBRoofSlant8" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 4, 3, 9)
+material_override = SubResource("StandardMaterial3D_tvs5w")
+mesh = ExtResource("22_vd83l")
+skeleton = NodePath("../../..")
+
+[node name="WallBRoofSlant9" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 4, 3, 8)
+mesh = ExtResource("22_vd83l")
+skeleton = NodePath("../../..")
+
+[node name="WallBRoofSlant10" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 4, 3, 7)
+mesh = ExtResource("22_vd83l")
+skeleton = NodePath("../../..")
+
+[node name="WallBRoofSlant11" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 4, 3, 6)
+material_override = SubResource("StandardMaterial3D_67kvi")
+mesh = ExtResource("22_vd83l")
+skeleton = NodePath("../../..")
+
+[node name="WallALow10" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 1, 3, 6)
+material_override = SubResource("StandardMaterial3D_q3jaj")
+mesh = ExtResource("23_0pnwc")
+skeleton = NodePath("../../..")
+
+[node name="WallALow11" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 2, 3, 6)
+material_override = SubResource("StandardMaterial3D_q3jaj")
+mesh = ExtResource("23_0pnwc")
+skeleton = NodePath("../../..")
+
+[node name="WallALow12" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 3, 3, 6)
+material_override = SubResource("StandardMaterial3D_q3jaj")
+mesh = ExtResource("23_0pnwc")
+skeleton = NodePath("../../..")
+
+[node name="WallALow13" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 1, 3, 7)
+material_override = SubResource("StandardMaterial3D_q3jaj")
+mesh = ExtResource("23_0pnwc")
+skeleton = NodePath("../../..")
+
+[node name="WallALow14" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 2, 3, 7)
+material_override = SubResource("StandardMaterial3D_q3jaj")
+mesh = ExtResource("23_0pnwc")
+skeleton = NodePath("../../..")
+
+[node name="WallALow16" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 1, 3, 8)
+material_override = SubResource("StandardMaterial3D_q3jaj")
+mesh = ExtResource("23_0pnwc")
+skeleton = NodePath("../../..")
+
+[node name="WallALow17" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 2, 3, 8)
+material_override = SubResource("StandardMaterial3D_q3jaj")
+mesh = ExtResource("23_0pnwc")
+skeleton = NodePath("../../..")
+
+[node name="WallALow19" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 1, 3, 9)
+material_override = SubResource("StandardMaterial3D_q3jaj")
+mesh = ExtResource("23_0pnwc")
+skeleton = NodePath("../../..")
+
+[node name="WallALow20" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 2, 3, 9)
+material_override = SubResource("StandardMaterial3D_q3jaj")
+mesh = ExtResource("23_0pnwc")
+skeleton = NodePath("../../..")
+
+[node name="WallALow21" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 3, 3, 9)
+material_override = SubResource("StandardMaterial3D_q3jaj")
+mesh = ExtResource("23_0pnwc")
+skeleton = NodePath("../../..")
+
+[node name="WallB16" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 9)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB17" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 9)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB18" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 9)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB19" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 9)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallB20" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 9)
+mesh = ExtResource("12_iylke")
+skeleton = NodePath("../../..")
+
+[node name="WallALow15" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 3, 3, 7)
+material_override = SubResource("StandardMaterial3D_q3jaj")
+mesh = ExtResource("23_0pnwc")
+skeleton = NodePath("../../..")
+
+[node name="WallALow18" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 3, 3, 8)
+material_override = SubResource("StandardMaterial3D_q3jaj")
+mesh = ExtResource("23_0pnwc")
+skeleton = NodePath("../../..")
+
+[node name="BalconyTypeA" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 1, 5.5)
+mesh = ExtResource("41_6c85f")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ht2cs")
+
+[node name="BalconyTypeA2" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 5.5)
+mesh = ExtResource("41_6c85f")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ht2cs")
+
+[node name="BalconyTypeA3" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 2, 5.5)
+mesh = ExtResource("41_6c85f")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ht2cs")
+
+[node name="BalconyTypeA4" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 2, 5.5)
+mesh = ExtResource("41_6c85f")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ht2cs")
+
+[node name="DetailAwningWide2" type="MeshInstance3D" parent="environment/building_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.99317, 0.733932, 5.3604)
+mesh = ExtResource("52_dmxe8")
+skeleton = NodePath("../../..")
+
+[node name="back_alley" type="Node3D" parent="environment"]
+
+[node name="WallCFlat28" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 5.5)
+mesh = ExtResource("14_eqqas")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qykda")
+
+[node name="RoadAsphaltPavement4" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0.05, 6)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement11" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0.05, 7)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement20" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0.05, 7)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement12" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0.05, 8)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement21" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0.05, 8)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement13" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0.05, 9)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement22" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0.05, 9)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement14" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0.05, 10)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement15" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0.05, 10)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement16" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0.05, 10)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement17" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0.05, 10)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement18" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0.05, 10)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement19" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05, 10)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement5" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0.05, 6)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement6" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0.05, 6)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement7" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0.05, 6)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement8" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0.05, 6)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement9" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0.05, 6)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement10" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0.05, 6)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement41" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0.05, 10)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement43" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0.05, 10)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement45" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0.05, 10)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement46" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0.05, 10)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement36" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0.05, 7)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement37" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0.05, 8)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement38" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0.05, 9)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement39" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0.05, 10)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement47" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0.05, 7)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement48" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0.05, 8)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement49" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0.05, 9)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement50" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0.05, 10)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement51" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0.05, 7)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement52" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0.05, 8)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement53" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0.05, 9)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement54" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0.05, 10)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCenter2" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 8)
+mesh = ExtResource("4_4uyom")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCornerOuter" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 10, 0, 9)
+mesh = ExtResource("3_6syq8")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 10, 0, 7)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide2" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, 10, 0, 10)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide4" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 11, 0, 8)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide5" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 11, 0, 9)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide6" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 11, 0, 10)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCornerInner" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 11, 0, 7)
+mesh = ExtResource("5_3s4uu")
+skeleton = NodePath("../../..")
+
+[node name="TruckGreen" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 13, 0, 9)
+mesh = ExtResource("40_42ivx")
+skeleton = NodePath("../../..")
+
+[node name="TruckGrey" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, -1.74846e-07, 0, 1, 0, 1.74846e-07, 0, 1, 5.61321, 0, 8.3307)
+mesh = ExtResource("45_twaog")
+skeleton = NodePath("../../..")
+
+[node name="DetailDumpsterOpen" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(-0.457967, 0, 0.888969, 0, 1, 0, -0.888969, 0, -0.457967, 5.00737, 0, 5.99456)
+mesh = ExtResource("46_22nqg")
+skeleton = NodePath("../../..")
+
+[node name="DetailDumpsterClosed" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(-0.950059, 0, -0.31207, 0, 1, 0, 0.31207, 0, -0.950059, 4.88293, 0, 6.92646)
+mesh = ExtResource("47_bdr6x")
+skeleton = NodePath("../../..")
+
+[node name="DetailDumpsterClosed2" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(0.5, 0, 0.866025, 0, 1, 0, -0.866025, 0, 0.5, 11, 0, 6)
+mesh = ExtResource("47_bdr6x")
+skeleton = NodePath("../../..")
+
+[node name="DetailBarrierStrongDamaged" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 8)
+mesh = ExtResource("49_gvmur")
+skeleton = NodePath("../../..")
+
+[node name="DetailBarrierStrongTypeA" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0, 8)
+mesh = ExtResource("50_662t3")
+skeleton = NodePath("../../..")
+
+[node name="DetailBarrierStrongTypeA2" type="MeshInstance3D" parent="environment/back_alley"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 8)
+mesh = ExtResource("50_662t3")
+skeleton = NodePath("../../..")
+
+[node name="building_3" type="Node3D" parent="environment"]
+
+[node name="WallAPainted2" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 7)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted3" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 7)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted4" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 7)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted10" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 9)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted11" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 9)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted12" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 9)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted18" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 1, 7)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted19" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1, 7)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted20" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 1, 7)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted26" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 1, 9)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted27" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1, 9)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted28" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 1, 9)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted34" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 2, 7)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted35" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 2, 7)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted36" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 2, 7)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted42" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 2, 9)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted43" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 2, 9)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted44" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 2, 9)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted50" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 3, 7)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted51" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 3, 7)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted52" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 3, 7)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted58" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 3, 9)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted13" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 8)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted29" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 1, 8)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted45" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 2, 8)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted61" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 3, 8)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted59" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 3, 9)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallAPainted60" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 3, 9)
+mesh = ExtResource("16_k3tg4")
+skeleton = NodePath("../../..")
+
+[node name="WallARoofSlant6" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 4, 9)
+mesh = ExtResource("18_fkldh")
+skeleton = NodePath("../../..")
+
+[node name="WallARoofSlant8" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 4, 7)
+mesh = ExtResource("18_fkldh")
+skeleton = NodePath("../../..")
+
+[node name="WallARoofSlant10" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 4, 9)
+mesh = ExtResource("18_fkldh")
+skeleton = NodePath("../../..")
+
+[node name="WallARoofSlant12" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 4, 7)
+mesh = ExtResource("18_fkldh")
+skeleton = NodePath("../../..")
+
+[node name="WallARoofSlant13" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 4, 8)
+mesh = ExtResource("18_fkldh")
+skeleton = NodePath("../../..")
+
+[node name="WallARoofSlant17" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 4, 8)
+mesh = ExtResource("18_fkldh")
+skeleton = NodePath("../../..")
+
+[node name="WallARoofSlant14" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 4, 9)
+mesh = ExtResource("18_fkldh")
+skeleton = NodePath("../../..")
+
+[node name="WallARoofSlant15" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 4, 8)
+mesh = ExtResource("18_fkldh")
+skeleton = NodePath("../../..")
+
+[node name="WallARoofSlant16" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 4, 7)
+mesh = ExtResource("18_fkldh")
+skeleton = NodePath("../../..")
+
+[node name="WallAGarage" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 9, 0, 8)
+mesh = ExtResource("19_dg07v")
+skeleton = NodePath("../../..")
+
+[node name="WallAWindow3" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 9, 1, 8)
+mesh = ExtResource("7_cgpn8")
+skeleton = NodePath("../../..")
+
+[node name="WallAWindow4" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 9, 2, 8)
+mesh = ExtResource("7_cgpn8")
+skeleton = NodePath("../../..")
+
+[node name="WallAWindow5" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 9, 3, 8)
+mesh = ExtResource("7_cgpn8")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCenter" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 8)
+mesh = ExtResource("4_4uyom")
+skeleton = NodePath("../../..")
+
+[node name="BalconyLadderBottom3" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1.5, 0, 0, 0, 1, 8, 2.00413, 6.35423)
+mesh = ExtResource("42_4585p")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_atcg4")
+
+[node name="BalconyLadderBottom4" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1.5, 0, 0, 0, 1, 8, 1.00833, 6.35)
+mesh = ExtResource("42_4585p")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_atcg4")
+
+[node name="BalconyLadderTop" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 2.98417, 6.35)
+mesh = ExtResource("43_1okv2")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_8c6u2")
+
+[node name="WindowWideTypeA4" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.0073, 3.26594, 6.49931)
+mesh = ExtResource("44_akru5")
+skeleton = NodePath("../../..")
+
+[node name="WindowWideTypeA5" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.0073, 2.27555, 6.49931)
+mesh = ExtResource("44_akru5")
+skeleton = NodePath("../../..")
+
+[node name="WindowWideTypeA6" type="MeshInstance3D" parent="environment/building_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.0073, 1.28443, 6.49931)
+mesh = ExtResource("44_akru5")
+skeleton = NodePath("../../..")
+
+[node name="enemy_base" type="Node3D" parent="environment"]
+
+[node name="enemy_base_floor_1" type="Node3D" parent="environment/enemy_base"]
+
+[node name="WallADoor" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_1"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 6, 0, 4)
+mesh = ExtResource("6_xdib1")
+skeleton = NodePath("../../../..")
+
+[node name="WallAWindow" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_1"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 6, 0, 5)
+mesh = ExtResource("7_cgpn8")
+skeleton = NodePath("../../../..")
+
+[node name="WallAWindow2" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_1"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 6, 0, 3)
+mesh = ExtResource("7_cgpn8")
+skeleton = NodePath("../../../..")
+
+[node name="WallA" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 3)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../../..")
+
+[node name="WallA5" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 5)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../../..")
+
+[node name="WallA7" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 4)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../../..")
+
+[node name="WallA9" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 5)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../../..")
+
+[node name="WallA2" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 3)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../../..")
+
+[node name="WallA3" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 3)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../../..")
+
+[node name="WallADoor2" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_1"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 9, 0, 5)
+mesh = ExtResource("6_xdib1")
+skeleton = NodePath("../../../..")
+
+[node name="DetailAwningWide3" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_1"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5.34543, 0.733932, 4.00562)
+mesh = ExtResource("52_dmxe8")
+skeleton = NodePath("../../../..")
+
+[node name="enemy_base_floor_2" type="Node3D" parent="environment/enemy_base"]
+
+[node name="WallA6" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_2"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 9, 1, 4)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../../..")
+
+[node name="WallA12" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1, 4)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../../..")
+
+[node name="WallA10" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 1, 5)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../../..")
+
+[node name="WallA11" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_2"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 9, 1, 5)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../../..")
+
+[node name="WallADoor3" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_2"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 7, 1, 5)
+mesh = ExtResource("6_xdib1")
+skeleton = NodePath("../../../..")
+
+[node name="WallAWindow3" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_2"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 7, 1, 4)
+mesh = ExtResource("7_cgpn8")
+skeleton = NodePath("../../../..")
+
+[node name="WallCFlatLow" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_2"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 9.5, 1, 3)
+mesh = ExtResource("10_e2lw8")
+skeleton = NodePath("../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_s4cds")
+
+[node name="WallCFlatLow16" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_2"]
+transform = Transform3D(-4.37114e-08, -0.5, 0, 1, -2.18557e-08, 0, 0, 0, 1, 9.13794, 1.49524, 3.4738)
+mesh = ExtResource("10_e2lw8")
+skeleton = NodePath("../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_7gre1")
+
+[node name="WallCFlatLow8" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_2"]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 9, 1, 2.5)
+mesh = ExtResource("10_e2lw8")
+skeleton = NodePath("../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_s4cds")
+
+[node name="WallCFlatLow9" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_2"]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 8, 1, 2.5)
+mesh = ExtResource("10_e2lw8")
+skeleton = NodePath("../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_s4cds")
+
+[node name="WallCFlatLow10" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_2"]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 7, 1, 2.5)
+mesh = ExtResource("10_e2lw8")
+skeleton = NodePath("../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_s4cds")
+
+[node name="WallCFlatLow11" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_2"]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 6, 1, 2.5)
+mesh = ExtResource("10_e2lw8")
+skeleton = NodePath("../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_s4cds")
+
+[node name="WallCFlatLow12" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_2"]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 6, 1, 5.5)
+mesh = ExtResource("10_e2lw8")
+skeleton = NodePath("../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_s4cds")
+
+[node name="WallCFlatLow2" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_2"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 5.5, 1, 3)
+mesh = ExtResource("10_e2lw8")
+skeleton = NodePath("../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_s4cds")
+
+[node name="WallCFlatLow3" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_2"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 5.5, 1, 4)
+mesh = ExtResource("10_e2lw8")
+skeleton = NodePath("../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_s4cds")
+
+[node name="WallCFlatLow4" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_2"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 5.5, 1, 5)
+mesh = ExtResource("10_e2lw8")
+skeleton = NodePath("../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_s4cds")
+
+[node name="DetailAwningWide5" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_2"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 6.34543, 1.73393, 5.00562)
+mesh = ExtResource("52_dmxe8")
+skeleton = NodePath("../../../..")
+
+[node name="enemy_base_floor_3" type="Node3D" parent="environment/enemy_base"]
+
+[node name="WallAWindow4" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_3"]
+transform = Transform3D(1, 0, -7.35137e-08, 0, 1, 0, 7.35137e-08, 0, 1, 9, 1.999, 5)
+mesh = ExtResource("7_cgpn8")
+skeleton = NodePath("../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_45w8a")
+
+[node name="WallADoor4" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_3"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 8, 2, 5)
+mesh = ExtResource("6_xdib1")
+skeleton = NodePath("../../../..")
+surface_material_override/1 = SubResource("StandardMaterial3D_scl8g")
+
+[node name="WallCFlatLow13" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_3"]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 8, 2, 3.5)
+mesh = ExtResource("10_e2lw8")
+skeleton = NodePath("../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_s4cds")
+
+[node name="WallCFlatLow14" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_3"]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 7, 2, 3.5)
+mesh = ExtResource("10_e2lw8")
+skeleton = NodePath("../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_s4cds")
+
+[node name="WallCFlatLow15" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_3"]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 7, 2, 5.5)
+mesh = ExtResource("10_e2lw8")
+skeleton = NodePath("../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_s4cds")
+
+[node name="WallCFlatLow5" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_3"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 6.5, 2, 5)
+mesh = ExtResource("10_e2lw8")
+skeleton = NodePath("../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_s4cds")
+
+[node name="WallCFlatLow6" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_3"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 6.5, 2, 4)
+mesh = ExtResource("10_e2lw8")
+skeleton = NodePath("../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_s4cds")
+
+[node name="WallCFlatLow7" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_3"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 9.5, 2, 4)
+mesh = ExtResource("10_e2lw8")
+skeleton = NodePath("../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_s4cds")
+
+[node name="DetailAwningWide6" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_3"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 7.35786, 2.73393, 5.00562)
+mesh = ExtResource("52_dmxe8")
+skeleton = NodePath("../../../..")
+
+[node name="WallAFlat" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_floor_3"]
+transform = Transform3D(1.31134e-07, 1, -4.37114e-08, 0, -4.37114e-08, -1, -1, 1.31134e-07, -5.73206e-15, 8.5, 3, 5)
+material_override = SubResource("StandardMaterial3D_kr0ck")
+mesh = ExtResource("54_bh8tt")
+skeleton = NodePath("../../../..")
+
+[node name="enemy_base_outside" type="Node3D" parent="environment/enemy_base"]
+
+[node name="WallCFlat24" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_outside"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, 5.5)
+mesh = ExtResource("14_eqqas")
+skeleton = NodePath("../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qykda")
+
+[node name="WallCFlat25" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_outside"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 5.5)
+mesh = ExtResource("14_eqqas")
+skeleton = NodePath("../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qykda")
+
+[node name="DetailDumpsterOpen2" type="MeshInstance3D" parent="environment/enemy_base/enemy_base_outside"]
+transform = Transform3D(0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 11.0675, 0, 5.17626)
+mesh = ExtResource("46_22nqg")
+skeleton = NodePath("../../../..")
+
+[node name="side_road" type="Node3D" parent="environment"]
+
+[node name="RoadAsphaltSide14" type="MeshInstance3D" parent="environment/side_road"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 6, 0, 1)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide15" type="MeshInstance3D" parent="environment/side_road"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 7, 0, 1)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide21" type="MeshInstance3D" parent="environment/side_road"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 8, 0, 1)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide22" type="MeshInstance3D" parent="environment/side_road"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 9, 0, 1)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide28" type="MeshInstance3D" parent="environment/side_road"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 10, 0, 1)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide23" type="MeshInstance3D" parent="environment/side_road"]
+transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, 10, 0, 3)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide24" type="MeshInstance3D" parent="environment/side_road"]
+transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, 10, 0, 4)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide25" type="MeshInstance3D" parent="environment/side_road"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 11, 0, 4)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide26" type="MeshInstance3D" parent="environment/side_road"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 11, 0, 3)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide27" type="MeshInstance3D" parent="environment/side_road"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 11, 0, 2)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide17" type="MeshInstance3D" parent="environment/side_road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 2)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide18" type="MeshInstance3D" parent="environment/side_road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 2)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide19" type="MeshInstance3D" parent="environment/side_road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 2)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltSide20" type="MeshInstance3D" parent="environment/side_road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 2)
+mesh = ExtResource("2_0kh86")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCornerOuter4" type="MeshInstance3D" parent="environment/side_road"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 10, 0, 2)
+mesh = ExtResource("3_6syq8")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCornerInner2" type="MeshInstance3D" parent="environment/side_road"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 10, 0, 5)
+mesh = ExtResource("5_3s4uu")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCornerInner3" type="MeshInstance3D" parent="environment/side_road"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 11, 0, 5)
+mesh = ExtResource("5_3s4uu")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltCornerInner4" type="MeshInstance3D" parent="environment/side_road"]
+transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, 11, 0, 1)
+mesh = ExtResource("5_3s4uu")
+skeleton = NodePath("../../..")
+
+[node name="working_site" type="Node3D" parent="environment"]
+
+[node name="RoadDirtCenter" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 0)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter2" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 0)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter3" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter4" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 0)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter5" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 0)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter6" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, 0)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter7" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter8" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -1)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter9" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -1)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter10" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -1)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter11" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, -1)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter12" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -1)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter13" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, -1)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter14" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -1)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter15" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -2)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter16" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -2)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter17" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -2)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter18" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, -2)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter19" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -2)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter20" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, -2)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter21" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -2)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter22" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0, 0)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter23" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0, -1)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter24" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0, -2)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter25" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 0)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter26" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -1)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="RoadDirtCenter27" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -2)
+mesh = ExtResource("13_qmevm")
+skeleton = NodePath("../../..")
+
+[node name="WallCFlat" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 14.5, 0, -2)
+mesh = ExtResource("14_eqqas")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qykda")
+
+[node name="WallCFlat8" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, -2.5)
+mesh = ExtResource("14_eqqas")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qykda")
+
+[node name="WallCFlat15" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0, -2.5)
+mesh = ExtResource("14_eqqas")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qykda")
+
+[node name="WallCFlat16" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -2.5)
+mesh = ExtResource("14_eqqas")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qykda")
+
+[node name="WallCFlat9" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, -2.5)
+mesh = ExtResource("14_eqqas")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qykda")
+
+[node name="WallCFlat10" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -2.5)
+mesh = ExtResource("14_eqqas")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qykda")
+
+[node name="WallCFlat11" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, -2.5)
+mesh = ExtResource("14_eqqas")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qykda")
+
+[node name="WallCFlat12" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -2.5)
+mesh = ExtResource("14_eqqas")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qykda")
+
+[node name="WallCFlat13" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -2.5)
+mesh = ExtResource("14_eqqas")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qykda")
+
+[node name="WallCFlat14" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -2.5)
+mesh = ExtResource("14_eqqas")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qykda")
+
+[node name="WallCFlat17" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0.5)
+mesh = ExtResource("14_eqqas")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qykda")
+
+[node name="WallCFlat26" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0, 0.5)
+mesh = ExtResource("14_eqqas")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qykda")
+
+[node name="WallCFlat27" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 0.5)
+mesh = ExtResource("14_eqqas")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qykda")
+
+[node name="WallCFlat18" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, 0.5)
+mesh = ExtResource("14_eqqas")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qykda")
+
+[node name="WallCFlat19" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 0.5)
+mesh = ExtResource("14_eqqas")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qykda")
+
+[node name="WallCFlat20" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 0.5)
+mesh = ExtResource("14_eqqas")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qykda")
+
+[node name="WallCFlat21" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0.5)
+mesh = ExtResource("14_eqqas")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qykda")
+
+[node name="WallCFlat22" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 0.5)
+mesh = ExtResource("14_eqqas")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qykda")
+
+[node name="WallCFlat23" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 0.5)
+mesh = ExtResource("14_eqqas")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qykda")
+
+[node name="WallCFlat2" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 14.5, 0, -1)
+mesh = ExtResource("14_eqqas")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qykda")
+
+[node name="WallCFlat3" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 14.5, 0, 0)
+mesh = ExtResource("14_eqqas")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qykda")
+
+[node name="ScaffoldingStructure2" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.5654, 0, -1.42144)
+mesh = ExtResource("26_2b47f")
+skeleton = NodePath("../../..")
+surface_material_override/1 = SubResource("StandardMaterial3D_1e45c")
+
+[node name="ScaffoldingStructure14" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.5654, 0, -0.421439)
+mesh = ExtResource("26_2b47f")
+skeleton = NodePath("../../..")
+surface_material_override/1 = SubResource("StandardMaterial3D_1e45c")
+
+[node name="ScaffoldingStructure15" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.5654, 1, -0.421439)
+mesh = ExtResource("26_2b47f")
+skeleton = NodePath("../../..")
+surface_material_override/1 = SubResource("StandardMaterial3D_1e45c")
+
+[node name="ScaffoldingStructure10" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.5654, 1, -1.42144)
+mesh = ExtResource("26_2b47f")
+skeleton = NodePath("../../..")
+surface_material_override/1 = SubResource("StandardMaterial3D_1e45c")
+
+[node name="ScaffoldingStructure11" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.5654, 2, -1.42144)
+mesh = ExtResource("26_2b47f")
+skeleton = NodePath("../../..")
+surface_material_override/1 = SubResource("StandardMaterial3D_1e45c")
+
+[node name="ScaffoldingStructure3" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.5654, 0, -1.42144)
+mesh = ExtResource("26_2b47f")
+skeleton = NodePath("../../..")
+surface_material_override/1 = SubResource("StandardMaterial3D_1e45c")
+
+[node name="ScaffoldingStructure5" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.5654, 1, -1.42144)
+mesh = ExtResource("26_2b47f")
+skeleton = NodePath("../../..")
+surface_material_override/1 = SubResource("StandardMaterial3D_1e45c")
+
+[node name="ScaffoldingStructure6" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.5654, 2, -1.42144)
+mesh = ExtResource("26_2b47f")
+skeleton = NodePath("../../..")
+surface_material_override/1 = SubResource("StandardMaterial3D_1e45c")
+
+[node name="ScaffoldingStructure7" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.5654, 3, -1.42144)
+mesh = ExtResource("26_2b47f")
+skeleton = NodePath("../../..")
+surface_material_override/1 = SubResource("StandardMaterial3D_1e45c")
+
+[node name="ScaffoldingStructure4" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.5654, 0, -0.421439)
+mesh = ExtResource("26_2b47f")
+skeleton = NodePath("../../..")
+surface_material_override/1 = SubResource("StandardMaterial3D_1e45c")
+
+[node name="ScaffoldingStructure8" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.5654, 1, -0.421439)
+mesh = ExtResource("26_2b47f")
+skeleton = NodePath("../../..")
+surface_material_override/1 = SubResource("StandardMaterial3D_1e45c")
+
+[node name="ScaffoldingStructure9" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.5654, 2, -0.421439)
+mesh = ExtResource("26_2b47f")
+skeleton = NodePath("../../..")
+surface_material_override/1 = SubResource("StandardMaterial3D_1e45c")
+
+[node name="ScaffoldingStructure12" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.5654, 3, -0.421439)
+mesh = ExtResource("26_2b47f")
+skeleton = NodePath("../../..")
+surface_material_override/1 = SubResource("StandardMaterial3D_1e45c")
+
+[node name="ScaffoldingPoles3" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.5654, 0, -1.42144)
+mesh = ExtResource("27_plpc7")
+skeleton = NodePath("../../..")
+
+[node name="ScaffoldingPoles2" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.5654, 4, -1.42144)
+mesh = ExtResource("27_plpc7")
+skeleton = NodePath("../../..")
+
+[node name="DetailBarrierStrongTypeB2" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 5.5, 0, -1.79673)
+mesh = ExtResource("28_483sh")
+skeleton = NodePath("../../..")
+
+[node name="DetailBarrierTypeA" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(-5.96046e-08, 0, 1, 0, 1, 0, -1, 0, -5.96046e-08, 5.66824, 0, -0.96526)
+mesh = ExtResource("29_ioe3k")
+skeleton = NodePath("../../..")
+
+[node name="DetailBarrierTypeA2" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(-5.96046e-08, 0, 1, 0, 1, 0, -1, 0, -5.96046e-08, 5.66592, 0, 0.142794)
+mesh = ExtResource("29_ioe3k")
+skeleton = NodePath("../../..")
+
+[node name="DetailBarrierTypeA3" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(-5.96046e-08, 0, 1, 0, 1, 0, -1, 0, -5.96046e-08, 5.66592, 0, -0.40697)
+mesh = ExtResource("29_ioe3k")
+skeleton = NodePath("../../..")
+
+[node name="DetailBeam" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(-0.201027, 0, -0.979586, 0, 1, 0, 0.979586, 0, -0.201027, 9.31622, 0, -1.71548)
+mesh = ExtResource("30_yorbb")
+skeleton = NodePath("../../..")
+
+[node name="DetailBricksTypeA" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.0651, 0, -2)
+mesh = ExtResource("31_c6j2g")
+skeleton = NodePath("../../..")
+
+[node name="DetailBricksTypeA2" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(0.470026, 0, 0.882652, 0, 1, 0, -0.882652, 0, 0.470026, 11, 0, -0.466277)
+mesh = ExtResource("31_c6j2g")
+skeleton = NodePath("../../..")
+
+[node name="DetailBricksTypeB" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.2663, 0, -0.350331)
+mesh = ExtResource("32_k8w1w")
+skeleton = NodePath("../../..")
+
+[node name="TruckFlat" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(-0.0255488, 0, 0.999674, 0, 1, 0, -0.999674, 0, -0.0255488, 9.27942, 4.76837e-07, -0.347885)
+mesh = ExtResource("39_6uyqy")
+skeleton = NodePath("../../..")
+
+[node name="WallALow" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.28385, 0, -1.8336)
+material_override = SubResource("StandardMaterial3D_wnn3a")
+mesh = ExtResource("23_0pnwc")
+skeleton = NodePath("../../..")
+
+[node name="WallALow2" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.28385, 0, -1.8336)
+material_override = SubResource("StandardMaterial3D_yboc0")
+mesh = ExtResource("23_0pnwc")
+skeleton = NodePath("../../..")
+
+[node name="WallARoofSlant" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 6.28385, 0.5, -1.8336)
+material_override = SubResource("StandardMaterial3D_3omrn")
+mesh = ExtResource("18_fkldh")
+skeleton = NodePath("../../..")
+
+[node name="WallARoofSlant2" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 7.28385, 0.5, -1.8336)
+material_override = SubResource("StandardMaterial3D_fe6a7")
+mesh = ExtResource("18_fkldh")
+skeleton = NodePath("../../..")
+
+[node name="DoorTypeA" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 7.28385, 0, -1.31954)
+mesh = ExtResource("55_5teso")
+skeleton = NodePath("../../..")
+
+[node name="WindowSmallTypeA" type="MeshInstance3D" parent="environment/working_site"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 6.28385, 0.212581, -1.32017)
+mesh = ExtResource("56_xfutl")
+skeleton = NodePath("../../..")
+
+[node name="building_4" type="Node3D" parent="environment"]
+
+[node name="WallA" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 5)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../..")
+
+[node name="WallA2" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 4)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../..")
+
+[node name="WallA3" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 3)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../..")
+
+[node name="WallA4" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 2)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../..")
+
+[node name="WallA12" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 5)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../..")
+
+[node name="WallA13" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 4)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../..")
+
+[node name="WallA14" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 3)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../..")
+
+[node name="WallA15" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 2)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../..")
+
+[node name="WallA16" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 1, 5)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../..")
+
+[node name="WallA18" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 1, 6)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../..")
+
+[node name="WallA20" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 1, 4)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../..")
+
+[node name="WallA21" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 1, 3)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../..")
+
+[node name="WallA22" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 1, 2)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../..")
+
+[node name="WallA27" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 1, 5)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../..")
+
+[node name="WallA28" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 1, 4)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../..")
+
+[node name="WallA29" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 1, 3)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../..")
+
+[node name="WallA30" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 1, 2)
+mesh = ExtResource("8_1jep0")
+skeleton = NodePath("../../..")
+
+[node name="WallADoor" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 13, 0, 6)
+mesh = ExtResource("6_xdib1")
+skeleton = NodePath("../../..")
+
+[node name="WallAWindow" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 12, 0, 6)
+mesh = ExtResource("7_cgpn8")
+skeleton = NodePath("../../..")
+
+[node name="WallAWindow7" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 12, 1, 6)
+mesh = ExtResource("7_cgpn8")
+skeleton = NodePath("../../..")
+
+[node name="WallAWindow2" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 14, 0, 6)
+mesh = ExtResource("7_cgpn8")
+skeleton = NodePath("../../..")
+
+[node name="WallAWindow6" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 14, 1, 6)
+mesh = ExtResource("7_cgpn8")
+skeleton = NodePath("../../..")
+
+[node name="WallAWindow8" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(1, 0, 1.74846e-07, 0, 1, 0, -1.74846e-07, 0, 1, 13, 1, 2)
+mesh = ExtResource("7_cgpn8")
+skeleton = NodePath("../../..")
+
+[node name="WallAWindow9" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(1, 0, 1.74846e-07, 0, 1, 0, -1.74846e-07, 0, 1, 13, 0, 2)
+mesh = ExtResource("7_cgpn8")
+skeleton = NodePath("../../..")
+
+[node name="WallARoof" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 14, 2, 6)
+mesh = ExtResource("9_q61go")
+skeleton = NodePath("../../..")
+
+[node name="WallARoof2" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 14, 2, 4)
+mesh = ExtResource("9_q61go")
+skeleton = NodePath("../../..")
+
+[node name="WallARoof4" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 14, 2, 3)
+mesh = ExtResource("9_q61go")
+skeleton = NodePath("../../..")
+
+[node name="WallARoof5" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 14, 2, 2)
+mesh = ExtResource("9_q61go")
+skeleton = NodePath("../../..")
+
+[node name="WallARoof3" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 14, 2, 5)
+mesh = ExtResource("9_q61go")
+skeleton = NodePath("../../..")
+
+[node name="WallARoof6" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 13, 2, 6)
+mesh = ExtResource("9_q61go")
+skeleton = NodePath("../../..")
+
+[node name="WallARoof7" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 13, 2, 4)
+mesh = ExtResource("9_q61go")
+skeleton = NodePath("../../..")
+
+[node name="WallARoof8" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 13, 2, 3)
+mesh = ExtResource("9_q61go")
+skeleton = NodePath("../../..")
+
+[node name="WallARoof9" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 13, 2, 2)
+mesh = ExtResource("9_q61go")
+skeleton = NodePath("../../..")
+
+[node name="WallARoof10" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 13, 2, 5)
+mesh = ExtResource("9_q61go")
+skeleton = NodePath("../../..")
+
+[node name="WallARoof11" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 12, 2, 6)
+mesh = ExtResource("9_q61go")
+skeleton = NodePath("../../..")
+
+[node name="WallARoof12" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 12, 2, 4)
+mesh = ExtResource("9_q61go")
+skeleton = NodePath("../../..")
+
+[node name="WallARoof13" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 12, 2, 3)
+mesh = ExtResource("9_q61go")
+skeleton = NodePath("../../..")
+
+[node name="WallARoof14" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 12, 2, 2)
+mesh = ExtResource("9_q61go")
+skeleton = NodePath("../../..")
+
+[node name="WallARoof15" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 12, 2, 5)
+mesh = ExtResource("9_q61go")
+skeleton = NodePath("../../..")
+
+[node name="WallCFlat6" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 11.5, 0, 1)
+mesh = ExtResource("14_eqqas")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qykda")
+
+[node name="RoadAsphaltPavement" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0.05, 1)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement2" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0.05, 1)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="RoadAsphaltPavement3" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0.05, 1)
+mesh = ExtResource("15_dgj7h")
+skeleton = NodePath("../../..")
+
+[node name="DetailAwningWide" type="MeshInstance3D" parent="environment/building_4"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 13, 0.717183, 6.64907)
+mesh = ExtResource("52_dmxe8")
+skeleton = NodePath("../../..")
