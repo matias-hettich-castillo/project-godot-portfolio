@@ -2910,6 +2910,3 @@ skeleton = NodePath("../../../..")
 
 [node name="player_controller" parent="." instance=ExtResource("57_bemaq")]
 transform = Transform3D(0.5, 0, -8.74228e-08, 0, 0.5, 0, 8.74228e-08, 0, 0.5, 9, 4, 5)
-
-[node name="Camera3D" type="Camera3D" parent="player_controller"]
-transform = Transform3D(2, -7.57104e-08, -4.37114e-08, 8.68257e-08, 1.60355, 1.19525, -1.01997e-08, -1.19525, 1.60355, 0, 2.50721, 3.71904)
