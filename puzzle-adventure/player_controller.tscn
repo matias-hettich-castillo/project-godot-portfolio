@@ -26,3 +26,8 @@ skeleton = NodePath("../..")
 [node name="visor" type="MeshInstance3D" parent="Pivot"]
 transform = Transform3D(0.266, 0, 0, 0, 0.095, 0, 0, 0, 0.121, 0, 0.171437, -0.254127)
 mesh = SubResource("BoxMesh_yw6d2")
+
+[node name="CameraPivot" type="Node3D" parent="."]
+
+[node name="Camera3D" type="Camera3D" parent="CameraPivot"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 3)
