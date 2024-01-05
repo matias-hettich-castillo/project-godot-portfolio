@@ -1,4 +1,4 @@
-[gd_scene load_steps=136 format=3 uid="uid://fjsj3i752d5r"]
+[gd_scene load_steps=135 format=3 uid="uid://fjsj3i752d5r"]
 
 [ext_resource type="ArrayMesh" uid="uid://ciiv8hmt6rw2q" path="res://kenney_retro-urban-kit/Models/OBJ format/grass.obj" id="1_53gdt"]
 [ext_resource type="ArrayMesh" uid="uid://dnh7b1hpsljl7" path="res://kenney_retro-urban-kit/Models/OBJ format/roadAsphalt_side.obj" id="2_0kh86"]
@@ -60,10 +60,11 @@
 
 [sub_resource type="Environment" id="Environment_2v51c"]
 background_mode = 1
-background_color = Color(0.12549, 0.337255, 0.447059, 1)
+background_color = Color(0.196078, 0.537255, 0.768627, 1)
 ambient_light_source = 2
-ambient_light_color = Color(0.921569, 0.670588, 0.615686, 1)
+ambient_light_color = Color(0.729412, 0.898039, 1, 1)
 ambient_light_energy = 0.1
+reflected_light_source = 1
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_7kgou"]
 size = Vector3(15.0609, 0.503296, 13.0232)
@@ -308,17 +309,14 @@ data = PackedVector3Array(-0.5, 0.0494, -0.0206, -0.5, 0, 0.15, -0.5, 0, -0.075,
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kr0ck"]
 albedo_texture = ExtResource("43_u1dsk")
 
-[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_36puj"]
-data = PackedVector3Array(0.2, 0, -0.3, 0.2, 0.5, 0.3, 0.2, 0.5, -0.3, 0.2, 0.5, 0.3, 0.2, 0, -0.3, 0.2, 0, 0.3, -0.2, 0.3, -0.3, -0.2, 0, 0.3, -0.2, 0, -0.3, -0.2, 0, 0.3, -0.2, 0.3, -0.3, -0.2, 0.3, 0.3, -0.2, 0, 0.3, 0.2, 0.5, 0.3, 0.2, 0, 0.3, 0.2, 0.5, 0.3, -0.2, 0, 0.3, -0.2, 0.3, 0.3, 0.2, 0, -0.3, -0.2, 0.3, -0.3, -0.2, 0, -0.3, -0.2, 0.3, -0.3, 0.2, 0, -0.3, 0.2, 0.5, -0.3, 0.2, 0, -0.3, -0.2, 0, 0.3, 0.2, 0, 0.3, -0.2, 0, 0.3, 0.2, 0, -0.3, -0.2, 0, -0.3, 0.2, 0.5, 0.3, -0.2, 0.3, -0.3, 0.2, 0.5, -0.3, -0.2, 0.3, -0.3, 0.2, 0.5, 0.3, -0.2, 0.3, 0.3, 0.2, 0.5, 0.3, -0.2464, 0.5268, -0.3, 0.2, 0.5, -0.3, -0.2464, 0.5268, -0.3, 0.2, 0.5, 0.3, -0.2464, 0.5268, 0.3)
+[sub_resource type="BoxShape3D" id="BoxShape3D_7g47f"]
+size = Vector3(0.410767, 0.516663, 0.614853)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1e45c"]
 transparency = 2
 alpha_scissor_threshold = 0.5
 alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("11_tty00")
-
-[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_wvdie"]
-data = PackedVector3Array(-0.332, 0.083, -0.1245, -0.332, 0, 0.1245, -0.332, 0, -0.1245, -0.332, 0, 0.1245, -0.332, 0.083, -0.1245, -0.332, 0.166, -0.0959, -0.332, 0, 0.1245, -0.332, 0.166, -0.0959, -0.332, 0.332, -0.0729, -0.332, 0, 0.1245, -0.332, 0.332, -0.0729, -0.332, 0.166, 0.0959, -0.332, 0.166, 0.0959, -0.332, 0.332, -0.0729, -0.332, 0.332, 0.0729, -0.332, 0, 0.1245, -0.332, 0.166, 0.0959, -0.332, 0.083, 0.1245, 0.332, 0.166, -0.0959, -0.332, 0.332, -0.0729, -0.332, 0.166, -0.0959, -0.332, 0.332, -0.0729, 0.332, 0.166, -0.0959, 0.332, 0.332, -0.0729, 0.332, 0, -0.1245, -0.332, 0.083, -0.1245, -0.332, 0, -0.1245, -0.332, 0.083, -0.1245, 0.332, 0, -0.1245, 0.332, 0.083, -0.1245, 0.332, 0.332, 0.0729, -0.332, 0.332, -0.0729, 0.332, 0.332, -0.0729, -0.332, 0.332, -0.0729, 0.332, 0.332, 0.0729, -0.332, 0.332, 0.0729, 0.332, 0, -0.1245, -0.332, 0, 0.1245, 0.332, 0, 0.1245, -0.332, 0, 0.1245, 0.332, 0, -0.1245, -0.332, 0, -0.1245, 0.332, 0, -0.1245, 0.332, 0.166, -0.0959, 0.332, 0.083, -0.1245, 0.332, 0.166, -0.0959, 0.332, 0, -0.1245, 0.332, 0, 0.1245, 0.332, 0.166, -0.0959, 0.332, 0, 0.1245, 0.332, 0.332, -0.0729, 0.332, 0.332, -0.0729, 0.332, 0, 0.1245, 0.332, 0.166, 0.0959, 0.332, 0.332, -0.0729, 0.332, 0.166, 0.0959, 0.332, 0.332, 0.0729, 0.332, 0.166, 0.0959, 0.332, 0, 0.1245, 0.332, 0.083, 0.1245, -0.332, 0, 0.1245, 0.332, 0.083, 0.1245, 0.332, 0, 0.1245, 0.332, 0.083, 0.1245, -0.332, 0, 0.1245, -0.332, 0.083, 0.1245, -0.332, 0.166, 0.0959, 0.332, 0.332, 0.0729, 0.332, 0.166, 0.0959, 0.332, 0.332, 0.0729, -0.332, 0.166, 0.0959, -0.332, 0.332, 0.0729, 0.332, 0.083, -0.1245, -0.332, 0.166, -0.0959, -0.332, 0.083, -0.1245, -0.332, 0.166, -0.0959, 0.332, 0.083, -0.1245, 0.332, 0.166, -0.0959, -0.332, 0.083, 0.1245, 0.332, 0.166, 0.0959, 0.332, 0.083, 0.1245, 0.332, 0.166, 0.0959, -0.332, 0.083, 0.1245, -0.332, 0.166, 0.0959)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wnn3a"]
 albedo_texture = ExtResource("21_fyi0p")
@@ -339,6 +337,7 @@ environment = SubResource("Environment_2v51c")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(0.305676, -0.842269, -0.44401, -0.265627, -0.523253, 0.809721, -0.914333, -0.129571, -0.383676, -3.14044, 4, -3.36904)
+light_color = Color(0.909804, 0.576471, 0.407843, 1)
 light_indirect_energy = 2.0
 light_angular_distance = 1.0
 light_bake_mode = 0
@@ -350,7 +349,6 @@ directional_shadow_mode = 0
 directional_shadow_blend_splits = true
 directional_shadow_fade_start = 0.005
 directional_shadow_max_distance = 10.0
-sky_mode = 1
 
 [node name="ground" type="StaticBody3D" parent="."]
 
@@ -2156,7 +2154,8 @@ skeleton = NodePath("../../../../..")
 [node name="StaticBody3D" type="StaticBody3D" parent="ground/environment/enemy_base/enemy_base_outside/DetailDumpsterOpen2"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="ground/environment/enemy_base/enemy_base_outside/DetailDumpsterOpen2/StaticBody3D"]
-shape = SubResource("ConcavePolygonShape3D_36puj")
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00311184, 0.256439, -0.000276566)
+shape = SubResource("BoxShape3D_7g47f")
 
 [node name="side_road" type="Node3D" parent="ground/environment"]
 
@@ -2602,27 +2601,22 @@ mesh = ExtResource("27_plpc7")
 skeleton = NodePath("../../../..")
 
 [node name="DetailBarrierStrongTypeB2" type="MeshInstance3D" parent="ground/environment/working_site"]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 5.5, 0, -1.79673)
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 5.64274, 0, -1.79673)
 mesh = ExtResource("28_483sh")
 skeleton = NodePath("../../../..")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="ground/environment/working_site/DetailBarrierStrongTypeB2"]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="ground/environment/working_site/DetailBarrierStrongTypeB2/StaticBody3D"]
-shape = SubResource("ConcavePolygonShape3D_wvdie")
-
 [node name="DetailBarrierTypeA" type="MeshInstance3D" parent="ground/environment/working_site"]
-transform = Transform3D(-5.96046e-08, 0, 1, 0, 1, 0, -1, 0, -5.96046e-08, 5.66824, 0, -0.96526)
+transform = Transform3D(-5.96046e-08, 0, 1, 0, 1, 0, -1, 0, -5.96046e-08, 5.57707, 0, -0.96526)
 mesh = ExtResource("29_ioe3k")
 skeleton = NodePath("../../../..")
 
 [node name="DetailBarrierTypeA2" type="MeshInstance3D" parent="ground/environment/working_site"]
-transform = Transform3D(-5.96046e-08, 0, 1, 0, 1, 0, -1, 0, -5.96046e-08, 5.66592, 0, 0.142794)
+transform = Transform3D(-5.96046e-08, 0, 1, 0, 1, 0, -1, 0, -5.96046e-08, 5.57475, 0, 0.142794)
 mesh = ExtResource("29_ioe3k")
 skeleton = NodePath("../../../..")
 
 [node name="DetailBarrierTypeA3" type="MeshInstance3D" parent="ground/environment/working_site"]
-transform = Transform3D(-5.96046e-08, 0, 1, 0, 1, 0, -1, 0, -5.96046e-08, 5.66592, 0, -0.40697)
+transform = Transform3D(-5.96046e-08, 0, 1, 0, 1, 0, -1, 0, -5.96046e-08, 5.57475, 0, -0.40697)
 mesh = ExtResource("29_ioe3k")
 skeleton = NodePath("../../../..")
 
@@ -2652,36 +2646,36 @@ mesh = ExtResource("39_6uyqy")
 skeleton = NodePath("../../../..")
 
 [node name="WallALow" type="MeshInstance3D" parent="ground/environment/working_site"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.28385, 0, -1.8336)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.42011, 0, -1.8336)
 material_override = SubResource("StandardMaterial3D_wnn3a")
 mesh = ExtResource("23_0pnwc")
 skeleton = NodePath("../../../..")
 
 [node name="WallALow2" type="MeshInstance3D" parent="ground/environment/working_site"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.28385, 0, -1.8336)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.42011, 0, -1.8336)
 material_override = SubResource("StandardMaterial3D_yboc0")
 mesh = ExtResource("23_0pnwc")
 skeleton = NodePath("../../../..")
 
 [node name="WallARoofSlant" type="MeshInstance3D" parent="ground/environment/working_site"]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 6.28385, 0.5, -1.8336)
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 6.42011, 0.5, -1.8336)
 material_override = SubResource("StandardMaterial3D_3omrn")
 mesh = ExtResource("18_fkldh")
 skeleton = NodePath("../../../..")
 
 [node name="WallARoofSlant2" type="MeshInstance3D" parent="ground/environment/working_site"]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 7.28385, 0.5, -1.8336)
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 7.42011, 0.5, -1.8336)
 material_override = SubResource("StandardMaterial3D_fe6a7")
 mesh = ExtResource("18_fkldh")
 skeleton = NodePath("../../../..")
 
 [node name="DoorTypeA" type="MeshInstance3D" parent="ground/environment/working_site"]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 7.28385, 0, -1.31954)
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 7.42011, 0, -1.31954)
 mesh = ExtResource("55_5teso")
 skeleton = NodePath("../../../..")
 
 [node name="WindowSmallTypeA" type="MeshInstance3D" parent="ground/environment/working_site"]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 6.28385, 0.212581, -1.32017)
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 6.42011, 0.212581, -1.32017)
 mesh = ExtResource("56_xfutl")
 skeleton = NodePath("../../../..")
 
@@ -2909,4 +2903,4 @@ mesh = ExtResource("52_dmxe8")
 skeleton = NodePath("../../../..")
 
 [node name="player_controller" parent="." instance=ExtResource("57_bemaq")]
-transform = Transform3D(0.5, 0, -8.74228e-08, 0, 0.5, 0, 8.74228e-08, 0, 0.5, 9, 4, 5)
+transform = Transform3D(-1.09278e-07, 0, -0.5, 0, 0.5, 0, 0.5, 0, -1.09278e-07, 0, 1, 0)
